@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmltag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css linked -->
+    <link rel="stylesheet" href="main.css/tailwind.css">
+
+    <!-- font awesome linked -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-800">
+    <!-- navbar section -->
+    <header class="my-1 py-2 bg-white w-full sms:w-full">
+        <nav class="md:mx-10 sms:mx-2 sm:mx-5">
+            <div class="flex justify-between items-center mx-auto">
+                <div>
+                    <a href="index.html">
+                        <img src="images/creative-logo.png" class="md:w-36 sms:w-28 sm:w-32">
+                    </a>
+                </div>
+                <div>
+                    <ul class="md:flex md:flex-row sm:flex-row sms:flex-col sms:gap-2 sm:gap-3 md:gap-5 sms:text-[14px] sm:text-[14px] md:text-[18px] sms:font-medium md:font-semibold underline-offset-1 sms:hidden md:visible">
+                        <li><a class="hover:underline hover:text-main transition-all duration-100" href="#">Home</a></li>
+                        <li><a class="hover:underline hover:text-main transition-all duration-100" href="#">About</a></li>
+                        <li><a href="#" class="text-main transition-all duration-100  hover:underline">Upskills</a></li>
+                        <li><a class="hover:underline hover:text-main transition-all duration-100" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="flex sm:gap-2 md:gap-4 sms:gap-1">
+                    <a href="sign.html">
+                        <button class=" bg-main sms:px-1 sms:py-1 sm:rounded-md sms:rounded-sm sms:text-[10px] sm:text-[14px] md:text-[16px] sms:font-medium md:font-semibold md:p-2 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all hover:text-main text-white active:scale-105 active:translate-y-1 duration-300">
+                            Register Interest
+                        </button>
+                    </a>
+                    <button id="switch">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="moon" class="sms:size-6 md:size-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                        </svg>  
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="flex justify-between md:my-20 md:flex-row sms:flex-col mx-auto sms:mt-7">
+        <div class="sms:ml-1.5 sm:ml-16 md2:ml-28 md:ml-8">
+            <div>
+                <p class="md:font-semibold sms:font-medium sm:text-[16px] sms:text-[14px] dark:text-gray-100">Discover <span class="text-main">-</span>  Interact <span class="text-main">-</span> Engage </p>
+            </div>
+
+            <div>
+                <h1 class="text-[64px] dark:text-gray-100 sm:font-semibold sm:text-[45px] sms:font-semibold md:font-[700] sms:text-[40px]">Google <br> <span class="text-main border-b-4 border-main">IT Support</span> <br> Certificate</h1>
+            </div>
+
+            <div class="sms:mt-1 sm:mt-3 md:mt-5">
+                <p class="text-gray-800 sms:text-sm dark:text-gray-100">
+                    This is your path to a career in IT. In this program, you’ll learn in- <br> demand skills with no degree or experience required. 
+                </p>
+            </div>
+
+            <div class="flex text-center sms:gap-2 sm:gap-3 sm:pt-3 sms:pt-1  md:pt-5 font-medium">
+                <p class="text-gray-800 text-[15px] dark:text-gray-100"><span class="font-bold text-lemon text-lg">438</span> <br> Videos</p>
+                <p  class="text-gray-800 text-[15px] dark:text-gray-100"><span class="font-bold text-lemon text-lg ">151</span> <br> Readings</p>
+                <p  class="text-gray-800 text-[15px] dark:text-gray-100"><span class="font-bold text-lemon text-lg">108</span> <br> Quizes</p>
+                <p class="text-gray-800 text-[15px] dark:text-gray-100"><span class="font-bold text-lemon text-lg" >24</span> <br> Exersizes</p>
+                <p class="text-gray-800 text-[15px] dark:text-gray-100"><span class="font-bold text-lemon text-lg">04</span> <br> Assignments</p>
+            </div>
+
+            <div class="sms:mt-1 sm:mt-4 md:mt-9">
+                <button class=" bg-main sm2:px-3 sm2:py-2 sm2:rounded-md text-white sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 px-4 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all hover:text-main active:scale-105 active:translate-y-1 md:font-bold duration-300">
+                    Sign Up
+                </button>
+                <button class=" bg-gray-100 sm2:px-3 sm2:py-2 sm2:rounded-md sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 px-4 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all duration-[.4s] hover:text-main active:scale-105 active:translate-y-1 md:font-bold ml-4">
+                    Learn More
+                </button>
+
+
+            </div>
+        </div>
+
+        <div class=" sms:ml-2 sms:mt-5 sm:ml-16 md:mr-[-15px]">
+            <img src="images/makk-group.png" class="md:w-4/5 sm:w-[400px] sms:w-[350px]">
+        </div>
+    </section>
+
+
+
+    <!-- Support Brand section starts here -->
+    <section class="w-full px-4 sm:px-10 md:px-14 sms:flex-col sms:items-center sms:justify-center md:flex-row bg-white py-3 flex items-center justify-center md:divide-x-2 sms:text-sm sm:py-10 md:divide-y-0 sms:divide-y-2 gap-8 mt-6">
+        <div class="md:basis-1/4 h-32 sms:w-2/3 md:w-full">
+            <p class="text-sec-text-color w-full h-full  flex items-center justify-center px-4 md:px-3 sm:text-sm md:text-base">Pave your path to career success by gaining  a  professional  Google certificate with the support of C4U</p>
+        </div>
+            
+        <div class="h-32 md:basis-1/4 flex items-center justify-center sms:w-2/3 md:w-full">
+            <img src="images/Google.png" alt="google">
+        </div>
+
+        <div class="h-32 md:basis-1/4 flex items-center justify-center sms:w-2/3 md:w-full">
+            <img src="images/depart-logo.png" alt="work & pension">
+        </div>
+
+        <div class="h-32 md:basis-1/4 flex items-center justify-center sms:w-2/3 md:w-full">
+            <img src="images/creative-logo.png" alt="logo">
+        </div>
+
+
+    </section>
+    
+    <!-- Support Brand section ends here -->
+
+
+
+    <!-- learn Section -->
+    <section class="grid grid-cols-12 sms:mx-3 mt-16 sms:gap-6 md:gap-5 md:mx-16">
+        <section class="md:col-span-6 col-span-12 bg-white p-6 rounded-xl shadow-md">
+            <div class="sms:space-y-6 sm:space-y-5 md:space-y-12">
+                <div>
+                    <h1 class="text-2xl md2:font-semibold
+                    font-medium">What You Will Learn</h1>
+
+                    <div class="font-medium border-b-[1px] mt-8 border-main"></div>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="images/Checkmark.png" class="w-10">
+                    <p>Gain skills required to succeed in an entry-level IT job</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="images/Checkmark.png" class="w-10">
+                    <p> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="images/Checkmark.png" class="w-10">
+                    <p>Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="images/Checkmark.png" class="w-10">
+                    <p>Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+                </div>
+            </div>
+        </section>
+        <!-- skills gain section -->
+        <section class="md:col-span-6 col-span-12 bg-white p-6 rounded-xl shadow-md">
+            <div>
+                <div>
+                    <img src="images/IT_social 1.png">
+                </div>
+
+                <div class="md:pt-2">
+                    <h1 class="text-2xl md2:font-semibold
+                    font-medium">Skills you will gain </h1>
+                    <div class="font-medium border-b-[1px] mt-8 border-main"></div>
+                </div>
+
+                <div class="pt-7 flex flex-wrap gap-x-2 gap-y-6">
+                    <p class="border-2 border-main w-fit md:py-1 md:px-2 sms:py-1 sms:px-1.5 rounded-full hover:bg-main hover:text-white transition-all duration-300 font-medium">Debugging</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all duration-300 font-medium sms:py-1 sms:px-1.5">Customer Service</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all duration-300 font-medium">Customer Support</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all duration-300 sms:py-1 sms:px-1.5 font-medium">Domain Name System (DNS)</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all duration-300 sms:py-1 sms:px-1.5 font-medium">Network Model</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all sms:py-1 sms:px-1.5 duration-300 font-medium">Linux</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all sms:py-1 sms:px-1.5 duration-300 font-medium sms:w-fit">Encryption Algorithms and Techniques</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all sms:py-1 sms:px-1.5 duration-300 font-medium">Network Protocols</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all duration-300 sms:py-1 sms:px-1.5 font-medium">Ipv4</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all sms:py-1 sms:px-1.5 duration-300 font-medium">Troubleshooting</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all sms:py-1 sms:px-1.5 duration-300 font-medium">Binary Code</p>
+
+                    <p class="border-2 border-main w-fit py-1 px-2 rounded-full hover:bg-main hover:text-white transition-all sms:py-1 sms:px-1.5 duration-300 font-medium">Cloud Computing</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- Job Accociate Section -->
+    <section class="grid grid-cols-12 sms:mx-3 mt-16 sms:gap-6 md:gap-5 md:mx-16">
+        <section class="lg:col-span-6 lg:p-4 col-span-12 bg-white rounded-xl shadow-md">
+            <div class="sms:space-y-4 sm:space-y-5 md:space-y-12 mx-4">
+                <div>
+                    <h1 class="text-2xl md2:font-semibold
+                    font-medium">Jobs Assocaited with Certificate </h1>
+
+                    <div class="font-medium border-b-[1px] mt-8 border-main"></div>
+                </div>
+
+                <div class="grid grid-cols-12">
+                    <div class="lg:col-span-6 sms:col-span-12 md:space-y-3">
+
+                        <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                            <img src="images/right-arrow.png">
+                            <p>Database administrator</p>
+                        </div>
+
+                        <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                            <img src="images/right-arrow.png">
+                            <p>Tech support specialist</p>
+                        </div>
+
+                        <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                            <img src="images/right-arrow.png">
+                            <p>IT specialist</p>
+                        </div>
+                        
+                        <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                            <img src="images/right-arrow.png">
+                            <p>Systems analyst</p>
+                        </div>
+
+                        <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                            <img src="images/right-arrow.png">
+                            <p>Network engineer</p>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-6 sms:col-span-12">
+                        <div class="md:col-span-6 sms:col-span-12 md:space-y-3">
+                            <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                                <img src="images/right-arrow.png">
+                                <p>Help desk technician</p>
+                            </div>
+
+                            <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                                <img src="images/right-arrow.png">
+                                <p>IT support spcialist</p>
+                            </div>
+
+                            <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                                <img src="images/right-arrow.png">
+                                <p>IT technician</p>
+                            </div>
+                            
+                            <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                                <img src="images/right-arrow.png">
+                                <p>Computer user specialist</p>
+                            </div>
+
+                            <div class="flex sm:gap-2 sms:gap-1 md:gap-3">
+                                <img src="images/right-arrow.png">
+                                <p>IT assitant </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="lg:col-span-6 col-span-12  rounded-xl w-full">
+            <div>
+                <img src="images/IT Support 1.png" class="w-full ">
+            </div>
+        </section>
+    </section>
+
+
+    <!-- course section starts here -->
+    <section class="w-full px-10 sm:px-20 md:px-16 bg-white space-y-8 py-10 my-5 md:my-20 relative shadow-md">
+        <h1 class=" text-3xl sm:text-5xl leading-relaxed font-semibold">
+            There are 5 Courses in this<br>Professional Certificate
+        </h1>
+    
+        <div class="flex flex-wrap gap-5 md:gap-20 pb-14 border-b border-red-300">
+            <span class="course hover:bg-transparent hover:font-semibold hover:text-lemon transition-all duration-300 flex-1 text-center bg-lemon">COURSE 1</span>
+            <span class="course flex-1 hover:bg-lemon hover:text-white transition-all duration-300 text-center">COURSE 2</span>
+            <span class="course flex-1 hover:bg-lemon hover:text-white transition-all duration-300 text-center">COURSE 3</span>
+            <span class="course flex-1 hover:bg-lemon hover:text-white transition-all duration-300 text-center">COURSE 4</span>
+            <span class="course flex-1 hover:bg-lemon hover:text-white transition-all duration-300 text-center">COURSE 5</span>
+        </div>
+    
+        <img class="absolute flex-shrink-0 right-0 sms:w-20 sms:bottom-2 md:-top-11 md:w-28 lg:w-40" src="images/mark-logo.png" alt="badge">
+    </section> 
+
+    <!-- course section ends here -->
+
+
+
+    <!-- Course 1 Meterial start -->
+
+    <section class="grid grid-cols-12 bg-white md:gap-4 shadow-md">
+        <section class="md2:col-span-3 sms:col-span-12 bg-nevi-blue p-4 h-full md:mx-4 sms:mx-1 flex flex-col justify-between">
+                <div>
+                    <div>
+                        <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">Course 1 </p>
+                    </div>
+                    <div class="md:pt-8 sms:pt-4">
+                        <h1 class="md:text-[32px] sm:text-[28px] sms:font-medium sm::font-semibold sms:text-[24px] text-white ">Technical Support Fundamentals</h1>
+                    </div>
+y
+                    <div class="md:pt-4 sms:pt-4">
+                        <div class="flex items-center gap-14">
+                            <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">132,411 ratings</p>
+                            <div class="flex items-center">
+                                <img src="images/Stars 5.png" class="pt-2.5" alt="">
+                                <p class="text-yellow-500">4.8</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:pt-8 sms:pt-6 md2:flex">
+                        <button class=" bg-main sm2:px-3 sm2:py-2 sm2:rounded-md text-white sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 px-4 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all hover:text-main active:scale-105 active:translate-y-1 md:font-bold duration-300 ">
+                            Sign Up
+                        </button>
+                        <button class=" bg-gray-100 sm2:px-5 sm2:py-2 sm2:rounded-md sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 md:px-6 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all duration-[.4s] hover:text-main active:scale-105 active:translate-y-1 md:font-bold ml-4">
+                            Next
+                        </button>
+                    </div>
+                </div>
+                <div class="sms:pt-6">
+                    <p class="text-blue-100">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+        </section>
+
+
+        <section class="md2:col-span-9 sms:col-span-12 sms:pt-8 md2:pt-0 ">
+            <div class="mx-4">
+                <div class="pt-3">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">About this course</h3>
+                    </div>
+                    <div class="pt-3">
+                        <p class="font-medium">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+                    </div>
+                </div>
+
+
+                <div class="pt-4 md:pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">What you will learn </h3>
+                    </div>
+                    <div class="pt-3">
+                        <div class="sms:space-y-1 sm:space-y-5 md:space-y-3">
+                            
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Understand how the binary system works</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>  Learn how applications are created and how they work under the hood of a computer</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Assemble a computer from scratch</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Choose and install an operating system on a computer</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Skills you will gain </h3>
+                    </div>
+
+                    <div class="flex sms:flex-col sm:flex-row md:gap-6 lg:gap-8 pt-3 sms:gap-1 sm:gap-3">
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-3 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Binary Code</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-3 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Troubleshooting</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-3 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Customer Support</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-3 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Linux</a>
+                    </div>
+                </div>
+
+                <div class="pt-8">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Information</h3>
+                    </div>
+
+                    <div class="pt-3">
+                        <ul class=" md:space-y-4 sms:space-y-2">
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Flexible deadlines</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Shareable Certificate</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">100% online</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Beginner Level</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Approx. 20 hours to complete</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Course 1 Meterial end -->
+
+
+    <div class="flex justify-center"><img src="images/arrow-01.png" alt=""></div>
+
+
+    <!-- Course 2 Meterial start -->
+
+    <section class="grid grid-cols-12 bg-white md:gap-4 shadow-md">
+        <section class="md2:col-span-3 sms:col-span-12 bg-nevi-blue p-4 h-full">
+            <div class="md:mx-4 sms:mx-1">
+                <div class="flex flex-col justify-between">
+                    <div>
+                        <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">Course 2 </p>
+                    </div>
+                    <div class="md:pt-8 sms:pt-4">
+                        <h1 class="md:text-[32px] sm:text-[28px] sms:font-medium sm::font-semibold sms:text-[24px] text-white ">The Bits and Bytes of Computer Networking
+                        </h1>
+                    </div>
+
+                    <div class="md:pt-8 sms:pt-4">
+                        <div class="flex items-center gap-14">
+                            <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">37,998 ratings</p>
+                            <div class="flex items-center">
+                                <img src="images/Stars.png" class="pt-2.5" alt="">
+                                <p class="text-yellow-500">4.6</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:pt-8 sms:pt-6 md2:flex">
+                        <button class=" bg-main sm2:px-3 sm2:py-2 sm2:rounded-md text-white sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 px-4 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all hover:text-main active:scale-105 active:translate-y-1 md:font-bold duration-300 ">
+                            Sign Up
+                        </button>
+                        <button class=" bg-gray-100 sm2:px-5 sm2:py-2 sm2:rounded-md sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 md:px-6 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all duration-[.4s] hover:text-main active:scale-105 active:translate-y-1 md:font-bold ml-4">
+                            Next
+                        </button>
+                    </div>
+                    </div>
+                    <div class="sms:pt-6 md:mt-[310px]">
+                        <p class="text-blue-100">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                    </div>
+            </div>
+        </section>
+
+
+        <section class="md2:col-span-9 sms:col-span-12 sms:pt-8 md2:pt-0 ">
+            <div class="mx-4">
+                <div class="pt-3">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">About this course</h3>
+                    </div>
+                    <div class="pt-3">
+                        <p class="font-medium">This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. 
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="pt-4 md:pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">What you will learn </h3>
+                    </div>
+                    <div class="pt-3">
+                        <div class="sms:space-y-1 sm:space-y-5 md:space-y-3">
+                            
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Describe computer networks in terms of a five-layer mode</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p> Understand all of the standard protocols involved with TCP/IP communications</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Grasp powerful network troubleshooting tools and techniques</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>learn network services like DNS and DHCP that help make computer networks run</p>
+                            </div>
+    
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Understand cloud computing, everything as a service, and cloud storage</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Skills you will gain </h3>
+                    </div>
+
+                    <div class="flex md:gap-6 lg:gap-8 pt-3 sms:gap-1 sm:gap-3">
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300">Domain Name System (DNS)</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Ipv4</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Network Model</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Troubleshooting</a>
+                    </div>
+                </div>
+
+                <div class="pt-8">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Information</h3>
+                    </div>
+
+                    <div class="pt-3">
+                        <ul class=" md:space-y-4 sms:space-y-2">
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Flexible deadlines</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Shareable Certificate</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">100% online</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Beginner Level</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Approx. 20 hours to complete</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Course 2 Meterial end -->
+
+
+    <div class="flex justify-center"><img src="images/arrow-02.png" alt=""></div>
+
+
+    <!-- Course 3 Meterial start -->
+
+    <section class="grid grid-cols-12 bg-white md:gap-4 shadow-md">
+        <section class="md2:col-span-3 sms:col-span-12 bg-nevi-blue p-4 h-full">
+            <div class="md:mx-4 sms:mx-1">
+                <div>
+                    <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">Course 3 </p>
+                </div>
+                <div class="md:pt-8 sms:pt-4">
+                    <h1 class="md:text-[32px] sm:text-[28px] sms:font-medium sm::font-semibold sms:text-[24px] text-white ">Operating Systems and You: Becoming a Power User
+                    </h1>
+                </div>
+
+                <div class="md:pt-8 sms:pt-4">
+                    <div class="flex items-center gap-14">
+                        <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">22,045 ratings</p>
+                        <div class="flex items-center">
+                            <img src="images/Stars.png" class="pt-2.5" alt="">
+                            <p class="text-yellow-500">4.7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:pt-8 sms:pt-6 md2:flex">
+                    <button class=" bg-main sm2:px-3 sm2:py-2 sm2:rounded-md text-white sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 px-4 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all hover:text-main active:scale-105 active:translate-y-1 md:font-bold duration-300 ">
+                        Sign Up
+                    </button>
+                    <button class=" bg-gray-100 sm2:px-5 sm2:py-2 sm2:rounded-md sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 md:px-6 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all duration-[.4s] hover:text-main active:scale-105 active:translate-y-1 md:font-bold ml-4">
+                        Next
+                    </button>
+                </div>
+                <div class="sms:pt-6 md2:mt-[275px]">
+                    <p class="text-blue-100">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="md2:col-span-9 sms:col-span-12 sms:pt-8 md2:pt-0 ">
+            <div class="mx-4">
+                <div class="pt-3">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">About this course</h3>
+                    </div>
+                    <div class="pt-3">
+                        <p class="font-medium">In this course -- through a combination of video lectures, demonstrations, and hands-on practice -- you’ll learn about the main components of an operating system and how to perform critical tasks like managing software and users, and configuring hardware.  
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="pt-4 md:pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">What you will learn </h3>
+                    </div>
+                    <div class="pt-3">
+                        <div class="sms:space-y-1 sm:space-y-5 md:space-y-3">
+                            
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Navigate the Windows and Linux filesystems using a graphical user interface and command line interpreter</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p> 
+                                    Set up users, groups, and permissions for account access
+                                   </p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Install, configure, and remove software on the Windows and Linux operating systems</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Configure disk partitions and filesystems</p>
+                            </div>
+    
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Understand how system processes work and how to manage them</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>work with system logs and remote connection tools</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>work with system logs and remote connection tools</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Skills you will gain </h3>
+                    </div>
+
+                    <div class="flex md:gap-6 lg:gap-8 pt-3 sms:gap-1 sm:gap-3">
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300">Powershell</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Linux File Systems</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Command-Line Interface</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Linux</a>
+                    </div>
+                </div>
+
+                <div class="pt-8">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Information</h3>
+                    </div>
+
+                    <div class="pt-3">
+                        <ul class=" md:space-y-4 sms:space-y-2">
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Flexible deadlines</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Shareable Certificate</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">100% online</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Beginner Level</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Approx. 20 hours to complete</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Course 3 Meterial end -->
+
+
+    <div class="flex justify-center"><img src="images/arrow-03.png"></div>
+
+
+    <!-- Course 4 Meterial start -->
+
+    <section class="grid grid-cols-12 bg-white md:gap-4 shadow-md">
+        <section class="md2:col-span-3 sms:col-span-12 bg-nevi-blue p-4 h-full">
+            <div class="md:mx-4 sms:mx-1">
+                <div>
+                    <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">Course 4</p>
+                </div>
+                <div class="md:pt-8 sms:pt-4">
+                    <h1 class="md:text-[32px] sm:text-[28px] sms:font-medium sm::font-semibold sms:text-[24px] text-white ">System Administration and IT Infrastructure Services
+                    </h1>
+                </div>
+
+                <div class="md:pt-8 sms:pt-4">
+                    <div class="flex items-center gap-14">
+                        <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">19,062 ratings</p>
+                        <div class="flex items-center">
+                            <img src="images/Stars.png" class="pt-2.5" alt="">
+                            <p class="text-yellow-500">4.7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:pt-8 sms:pt-6 md2:flex">
+                    <button class=" bg-main sm2:px-3 sm2:py-2 sm2:rounded-md text-white sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 px-4 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all hover:text-main active:scale-105 active:translate-y-1 md:font-bold duration-300 ">
+                        Sign Up
+                    </button>
+                    <button class=" bg-gray-100 sm2:px-5 sm2:py-2 sm2:rounded-md sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 md:px-6 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all duration-[.4s] hover:text-main active:scale-105 active:translate-y-1 md:font-bold ml-4">
+                        Next
+                    </button>
+                </div>
+                <div class="sms:pt-6 md2:mt-[330px]">
+                    <p class="text-blue-100">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="md2:col-span-9 sms:col-span-12 sms:pt-8 md2:pt-0 ">
+            <div class="mx-4">
+                <div class="pt-3">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">About this course</h3>
+                    </div>
+                    <div class="pt-3">
+                        <p class="font-medium">This course will transition you from working on a single computer to an entire fleet. Systems administration is the field of IT that’s responsible for maintaining reliable computers systems in a multi-user environment. In this course, you’ll learn about the infrastructure services that keep all organizations, big and small, up and running. We’ll deep dive on cloud so that you’ll understand everything from typical cloud infrastructure setups to how to manage cloud resources. You'll also learn how to manage and configure servers and how to use industry tools to manage computers, user information, and user productivity. Finally, you’ll learn how to recover your organization’s IT infrastructure in the event of a disaster. 
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="pt-4 md:pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">What you will learn </h3>
+                    </div>
+                    <div class="pt-3">
+                        <div class="sms:space-y-1 sm:space-y-5 md:space-y-3">
+                            
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Utilize best practices for choosing hardware, vendors, and services for your organization</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Understand how the most common infrastructure services that keep an organization running work, and how to manage infrastructure servers
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Understand how to make the most of the cloud for your organization</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Manage an organization’s computers and users using the directory services , Active Directory, and OpenLDAP</p>
+                            </div>
+    
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Choose and install an operating system on a computer</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Backup your organization’s data and know how to recover your IT infrastructure in  the case of  a disaster</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Utilize systems administration knowledge to plan and improve processes for IT environments</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Skills you will gain </h3>
+                    </div>
+
+                    <div class="flex md:gap-6 lg:gap-8 pt-3 sms:gap-1 sm:gap-3">
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300">Directory Service</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Lightweight Directory Access Protocol (LDAP)</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Backup</a>
+                    </div>
+                </div>
+
+                <div class="pt-8">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Information</h3>
+                    </div>
+
+                    <div class="pt-3">
+                        <ul class=" md:space-y-4 sms:space-y-2">
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Flexible deadlines</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Shareable Certificate</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">100% online</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Beginner Level</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Approx. 20 hours to complete</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Course 4 Meterial end -->
+
+
+    <div class="flex justify-center"><img src="images/arrow-04.png"></div>
+
+
+    <!-- Course 5 Meterial start -->
+
+    <section class="grid grid-cols-12 bg-white md:gap-4 shadow-md">
+        <section class="md2:col-span-3 sms:col-span-12 bg-nevi-blue p-4 h-full">
+            <div class="md:mx-4 sms:mx-1 flex flex-col justify-between">
+                <div>
+                    <div>
+                        <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">Course 5</p>
+                    </div>
+                    <div class="md:pt-8 sms:pt-4">
+                        <h1 class="md:text-[32px] sm:text-[28px] sms:font-medium sm::font-semibold sms:text-[24px] text-white ">IT Security: Defense against the digital dark arts
+                        </h1>
+                    </div>
+
+                    <div class="md:pt-8 sms:pt-4">
+                        <div class="flex items-center gap-14">
+                            <p class="md:text-[14px] sms:text-[12px ] text-lemon sm:font-medium md:font-semibold">16,121 ratings</p>
+                            <div class="flex items-center">
+                                <img src="images/Stars 5.png" class="pt-2.5" alt="">
+                                <p class="text-yellow-500">4.6</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:pt-8 sms:pt-6 md2:flex">
+                        <button class=" bg-main sm2:px-3 sm2:py-2 sm2:rounded-md text-white sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 px-4 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all hover:text-main active:scale-105 active:translate-y-1 md:font-bold duration-300 ">
+                            Sign Up
+                        </button>
+                        <button class=" bg-gray-100 sm2:px-5 sm2:py-2 sm2:rounded-md sms:rounded-sm sms:text-[10px] sms:p-0.5 sm2:text-[14px] md:text-[16px] sms:font-medium md:py-3 md:px-6 border-2 border-transparent hover:bg-transparent hover:border-[2px] hover:border-main transition-all duration-[.4s] hover:text-main active:scale-105 active:translate-y-1 md:font-bold ml-4">
+                            Next
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="sms:pt-6 lg:mt-[340px]">
+                        <p class="text-blue-100">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="md2:col-span-9 sms:col-span-12 sms:pt-8 md2:pt-0 ">
+            <div class="mx-4 my-3">
+                <div class="pt-3">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">About this course</h3>
+                    </div>
+                    <div class="pt-3">
+                        <p class="font-medium">This course will transition you from working on a single computer to an entire fleet. Systems administration is the field of IT that’s responsible for maintaining reliable computers systems in a multi-user environment. In this course, you’ll learn about the infrastructure services that keep all organizations, big and small, up and running. We’ll deep dive on cloud so that you’ll understand everything from typical cloud infrastructure setups to how to manage cloud resources. You'll also learn how to manage and configure servers and how to use industry tools to manage computers, user information, and user productivity. Finally, you’ll learn how to recover your organization’s IT infrastructure in the event of a disaster. 
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="pt-4 md:pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">What you will learn </h3>
+                    </div>
+                    <div class="pt-3">
+                        <div class="sms:space-y-1 sm:space-y-5 md:space-y-3">
+                            
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>How various encryption algorithms and techniques work as well as their benefits and limitations</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Various authentication systems and types
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>The difference between authentication and authorization</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>How to evaluate potential risks and recommend ways to reduce risk</p>
+                            </div>
+    
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>Best practices for securing a network</p>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <img src="images/Checkmark.png" class="w-10">
+                                <p>How to help others to grasp security concepts and protect themselves</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Skills you will gain </h3>
+                    </div>
+
+                    <div class="flex md:gap-6 lg:gap-8 pt-3 sms:gap-1 sm:gap-3">
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300">Cybersecurity</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Wireless Security</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Cryptography</a>
+                        <a href="#" class="border-2 border-pink-300 md:px-2 md:py-1 sms:px-1 sms:py-0.5 rounded-full hover:text-white hover:bg-pink-300 transition-all duration-300"> Network Security</a>
+                    </div>
+                </div>
+
+                <div class="pt-8">
+                    <div>
+                        <h3 class="text-pink-300 font-medium md:font-semibold text-lg">Information</h3>
+                    </div>
+
+                    <div class="pt-3">
+                        <ul class=" md:space-y-4 sms:space-y-2">
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Flexible deadlines</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Shareable Certificate</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">100% online</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Beginner Level</span></li>
+                            <li class="list-disc list-inside text-pink-300 font-medium"><span class="text-black">Approx. 20 hours to complete</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Course 5 Meterial end -->
+
+
+    <!--bottom cover section starts here -->
+    <section class="w-full h-[557px] bg-group-study bg-cover bg-center flex items-center justify-center md:justify-start md:pl-20 mt-52">
+        <div class="basis-10/12 sms:w-full md:basis-1/2 h-4/5 bg-white dark:bg-sec-dark-bg rounded-lg p-5 md:p-8 space-y-8 sm:space-y-14">
+            <img src="images/“ (1).png" alt="quote">
+
+            <h1 class="text-lg sm:text-2xl md:text-3xl text-gray-800 font-semibold">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</h1>
+
+            <p class="text-red-300">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</p>
+        </div>
+     </section>
+    <!-- bottom cover section ends here -->
+
+
+    <!-- Footer Section Start -->
+    <section class="grid grid-cols-12 gap-4 md:my-10 my-6 align-middle justify-items-stretch mx-10 dark:bg-gray-100 dark:p-4 dark:rounded-lg">
+        <div class="lg:col-span-4 md:col-span-4 sms:col-span-6">
+            <ul>
+                <li> <img src="images/creative-logo.png" class="w-[150px]" alt="creaive"></li>
+                <li><p>Level39</p></li>
+                <li><p>One Canada Square</p></li>
+                <li><p>Canary Wharf</p></li>
+                <li><p>London</p></li>
+                <li><p>E14 5AB</p></li>
+            </ul>
+        </div>
+
+        <div class="lg:col-span-2 md:col-span-4 sms:col-span-6">
+            <ul>
+                <li><h3 class="text-lg font-semibold">Home</h3></li>
+                <li><p>Collaborations</p></li>
+                <li><p>Statistics</p></li>
+                <li><p>How It Works </p></li>
+                <li><p>Testimonials </p></li>
+            </ul>
+        </div>
+
+        <div class="lg:col-span-2 md:col-span-4 sms:col-span-6">
+            <ul>
+                <li><h3 class="text-lg font-semibold">About Us</h3></li>
+                <li><p>Who We Are</p></li>
+                <li><p>Mission statement </p></li>
+                <li><p>Our Vision </p></li>
+                <li><p>The  Team </p></li>
+            </ul>
+        </div>
+
+        <div class="lg:col-span-2 md:col-span-4 sms:col-span-6">
+            <ul>
+                <li><h3 class="text-lg font-semibold">Upskill</h3></li>
+                <li><p>It Support </p></li>
+                <li><p>Project Managment </p></li>
+                <li><p>Data Analysts</p></li>
+                <li><p>Ux Design </p></li>
+            </ul>
+        </div>
+
+        <div class="lg:col-span-2 md:col-span-4 sms:col-span-6">
+            <ul>
+                <li><h3 class="text-lg font-semibold">Contact Us </h3></li>
+                <li><p>Your message </p></li>
+                <li><p>Email </p></li>
+                <li><p>Phone number </p></li>
+                <li><p>Linkedin  </p></li>
+            </ul>
+        </div>
+    </section>
+   <!-- Footer Section end -->
+
+   <!-- Copyright Section Start-->
+    <section>
+        <div class="flex justify-center py-3 border-t-2 dark:bg-white" ><p>Copyright &#169; 2022 Creatives For You LTD</p></div>
+    </section>
+    <!-- Copyright Section Start-->
+
+
+    <script>
+        const htmltag = document.getElementById("htmltag")
+        document.getElementById("switch").addEventListener("click", function () {
+            htmltag.classList.toggle("dark")
+        })
+    </script>
+</body>
+</html>
